@@ -1,0 +1,367 @@
+/*  Iphone5*/
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 767px)
+{
+
+	.logo {
+		background-image:
+			url('../img/phone_750x1334/drawable-xhdpi/logo.png');
+		background-size: 120px !important;
+		background-repeat: no-repeat;
+		background-position: left !important;
+		margin: 0 !important;
+		width: 135px !important;
+	}
+	.logo-position {
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		margin-top: 8px;
+		padding-left: 5px;
+	}
+	.container-header {
+		padding: 0px !important;
+	}
+	.noPadding {
+		padding: 0px !important;
+	}
+
+	.menu-toogle {
+		background-color: #7F8082;
+	}
+	.button-cuadr {
+		width: 53px;
+		height: 49px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		margin-right: 0px;
+		padding-top: 10px;
+		padding-left: 16px;
+		padding-right: 10px;
+	}
+	.icon-bar-corto {
+		float: left;
+		width: 5px !important;
+		margin-right: 5px;
+		margin-top: 4px;
+		height: 4px !important;
+	}
+	.icon-bar-largo {
+		float: left;
+		margin-top: 4px;
+		width: 14px !important;
+		height: 4px !important;
+	}
+
+	.user {
+		background-color: #B27A13;
+		border-radius: 0px;
+		margin-top: 10px;
+		padding: 4px;
+	}
+	.user-image {
+		height: 25px;
+		width: 20px;
+		padding:0px;
+	}
+
+	.encabezado-height{
+	   margin-bottom: 10px;
+	}
+
+	table.tablero>tbody>tr {
+        font-family: 'NexaLight' !important;
+        color: var(--main-text-color-gray) !important;
+        font-size: 11px;
+    }
+
+    .left-header {
+        text-align: right;
+    }
+
+    .right-header {
+        padding-top: 0px;
+    }
+
+    .bienvenida-box{
+            padding: 20px;
+    }
+
+    .bienvenida{
+        font-size: 18px;
+    }
+    .bienvenida-body{
+        padding: 18px;
+        text-align: justify;
+        font-size: 15px;
+    }
+
+    .box-width {
+        padding-right: 0px;
+    }
+
+    .box-width-transac {
+        padding-right: 0px;
+    }
+
+    .moneda {
+        padding: 8px 35px 8px 0px !important;
+    }
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 991px) {
+
+  .logo {
+        background-image:
+            url('../img/phone_750x1334/drawable-xhdpi/logo.png');
+        background-size: 120px !important;
+        background-repeat: no-repeat;
+        background-position: left !important;
+        margin: 0 !important;
+        width: 135px !important;
+    }
+
+    .container-header {
+        padding: 0px !important;
+    }
+    .noPadding {
+        padding: 0px !important;
+    }
+    .menu-toogle {
+        background-color: #7F8082;
+    }
+    .button-cuadr {
+        width: 53px;
+        height: 49px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        padding-top: 10px;
+        padding-left: 16px;
+        padding-right: 10px;
+    }
+    .icon-bar-corto {
+        float: left;
+        width: 5px !important;
+        margin-right: 5px;
+        margin-top: 4px;
+        height: 4px !important;
+    }
+    .icon-bar-largo {
+        float: left;
+        margin-top: 4px;
+        width: 14px !important;
+        height: 4px !important;
+    }
+
+    .user {
+        background-color: #B27A13;
+        border-radius: 0px;
+        margin-top: 10px;
+        padding: 4px;
+    }
+    .user-image {
+        height: 25px;
+        width: 20px;
+        padding:0px;
+    }
+
+    .encabezado-height{
+       margin-bottom: 10px;
+    }
+
+    table.tablero>tbody>tr {
+        font-family: 'NexaLight' !important;
+        color: var(--main-text-color-gray) !important;
+        font-size: 11px;
+        height: 34px;
+    }
+
+    .left-header{
+	    padding-right: 0px;
+	    padding-left: 0px;
+        padding-top: 16px;
+        text-align: right;
+    }
+
+     .right-header {
+        text-align: right !important;
+    }
+
+    .bienvenida-box{
+            padding: 20px;
+    }
+
+    .bienvenida{
+        font-size: 30px;
+    }
+    .bienvenida-body{
+        padding: 18px;
+        text-align: justify;
+    }
+
+}
+
+
+@media only screen
+    and (max-device-width: 1024px) {
+
+    table.tablero>tbody>tr {
+        height: 34px;
+    }
+
+    .box-height{
+       height: 100%;
+    }
+
+}
+
+
+@media screen
+  and (min-device-width: 992px)
+  and (max-device-height: 1023px){
+
+    .logo {
+        background-image:
+            url('../img/laptop_1440x900/iconos BNFWEB2_logo.png');
+        background-size: 65% !important;
+        background-repeat: no-repeat;
+        height: 157% !important;
+        background-position: left !important;
+        margin: 0 !important;
+        width: 269px !important;
+    }
+
+    .encabezado-height {
+        height: 100px;
+    }
+
+    .left-header {
+        height: inherit;
+        padding-top: 16px;
+        text-align: right;
+    }
+
+    .right-header {
+        text-align: right !important;
+        padding-right: 5px
+    }
+    .user-image {
+        height: 28px;
+        width: 29px;
+    }
+    .user {
+        background-color: #B27A13;
+        padding-left: 6px;
+        padding-right: 6px;
+        border-radius: 0px;
+        margin-top: 10px;
+    }
+
+
+    table.tablero>tbody>tr {
+        font-family: 'NexaLight' !important;
+        color: var(--main-text-color-gray) !important;
+    }
+    table.tablero>tbody>tr>th {
+        font-family: 'NexaBold' !important;
+        color: var(--main-text-color-gray) !important;
+    }
+
+    .login-tab{
+		height: 447px;
+	}
+
+	.content-login{
+
+		width: 520px;
+		position: fixed1;
+		right: 100px;
+	}
+
+}
+
+
+
+
+
+
+@media ( min-width :1024px) {
+	.logo {
+		background-image:
+			url('../img/laptop_1440x900/iconos BNFWEB2_logo.png');
+		background-size: 65% !important;
+		background-repeat: no-repeat;
+		height: 157% !important;
+		background-position: left !important;
+		margin: 0 !important;
+		width: 269px !important;
+	}
+
+	.encabezado-height {
+		height: 100px;
+	}
+
+	.left-header {
+		height: inherit;
+		padding-top: 16px;
+		text-align: right;
+	}
+	.user-image {
+		height: 28px;
+		width: 29px;
+	}
+	.user {
+		background-color: #B27A13;
+		padding-left: 6px;
+		padding-right: 6px;
+		border-radius: 0px;
+		margin-top: 10px;
+	}
+
+	.box-width {
+        width: 342px;
+    }
+
+    .box-width-transac {
+        width: 355px;
+    }
+
+	.box-height{
+       height: 15em;
+    }
+
+    .bienvenida-box{
+            padding: 20px;
+    }
+
+    .bienvenida{
+        font-size: 33px;
+    }
+    .bienvenida-body{
+        padding: 18px;
+        text-align: justify;
+    }
+
+	table.tablero>tbody>tr {
+		font-family: 'NexaLight' !important;
+		color: var(--main-text-color-gray) !important;
+	}
+	table.tablero>tbody>tr>th {
+		font-family: 'NexaBold' !important;
+		color: var(--main-text-color-gray) !important;
+	}
+}
+
+@media (max-width: 480px) {
+    .cda_cupones {
+		width: 384px;
+	}
+	 .wrapper {
+		width: 480px;
+	}
+
+}

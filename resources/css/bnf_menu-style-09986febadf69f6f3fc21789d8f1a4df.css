@@ -1,0 +1,433 @@
+@CHARSET "UTF-8";
+
+	.navbar-default {
+		background-color: #7f8082;
+		border-color: #7f8082;
+		margin-bottom: 0px;
+	    height: 65px;
+	    padding-top: 8px;
+	    margin-bottom: 0px;
+	  }
+	  
+	  .navbar{
+	  	border-radius: 0px;
+	  }
+	  
+	  .navbar-inverse .navbar-nav>li>a{
+		font-family: 'NexaLight' !important;
+		color: white !important;
+		font-size: large;
+		padding-right: 20px;
+        padding-left: 20px;
+		
+	  }
+	  
+	  .nav>li>a:hover, .nav>li>a:active, .nav>li>a:focus{
+	      background: #B27A13;
+	  }
+	  
+	  .navbar-inverse .navbar-nav>.open>a, 
+	  .navbar-inverse .navbar-nav>.open>a:focus{
+	      background-color: #BD1E2D;
+	  }
+	  
+      .dropdown-menu.tablero-menu>a:hover{
+        background-color: #f2e5e55e
+      }
+	  
+	  .dropdown-menu.tablero-menu{
+	  	background-color: #B27A13;
+	  	left: auto;
+	  	right:0;
+	  	min-width: 120px;
+	  }
+	  
+	  .dropdown-menu.tablero-menu>li>a{
+	  	font-family: 'NexaLight' !important;
+		color: white !important;
+		font-size: large;
+	  }
+	  
+	  .navbar-nav>li{
+	  	float: none;
+    	display: inline-block;
+	  }
+	  
+	  .navbar-nav{
+	  	text-align: center;
+	  	float: none;
+	  	height: 57px;
+	  }
+	  
+	  .navbar-inverse{
+	  	    background-color: #7f8082;
+    		border-color: #7f8082;
+	  }
+	  
+	  .dropdown-menu.tablero-menu{
+	      border-color: #B27A13;
+	  }
+	  
+	  .sub-menu-size{
+	   	font-size: 13px;
+	  }
+	  span.sub-menu-size{
+	  	display: block!important;
+    	transition: transform 0.2s ease-out;
+	  }
+	  
+	  span.sub-menu-size:hover{
+	  	color: white !important;
+	  	transform: scale(1.2);
+    	font-weight: bold;
+	  }
+	  
+	  .title-menu-size{
+       font-size: 13px;
+       vertical-align: text-top;
+      }
+      
+      .dropdown-menu.tablero-menu .divider {
+		height: 1px;
+		margin: 13px 0;
+		overflow: hidden;
+		background-color: #f2e5e55e;
+      }
+      
+      .dropdown-submenu .col-lg-8{
+          padding-top: 8px;
+      }
+      
+      .dropdown-submenu .col-lg-4{
+          padding-top: 8px;
+          top: 5px;
+      }
+    
+    .col-lg-4 .row{
+        padding-bottom: 15px;
+    }
+    
+    .last-item-dropdown{
+        padding-bottom:15px;
+    }
+    
+    .navbar.navbar-inverse > .container{
+        height: 57px;
+    }
+ 
+    li.dropdown{
+        height: 57px;
+    }
+    
+    a.dropdown-toggle{
+        height: 57px;
+        padding-top: 20px !important;
+    }
+    
+    .navbar-inverse .navbar-nav>.open>a>b.caret{
+      transform: rotate(180deg);
+      transition: transform 0.01s linear;
+    }
+    
+    .navbar-inverse .navbar-nav>.open>a, 
+    .navbar-inverse .navbar-nav>.open>a:focus{
+        background-color: #B27A13;
+    }
+    
+    #first-submenu{
+        padding-right: 14px;
+    }
+    
+     #first-submenu>.sub-menu-size{
+   		margin-right: 7px;
+    }
+    
+    #submenu3{
+	    text-align: right;
+	    height: 34px;
+	    float: right;
+	    width: auto;
+	    padding-right: 0px;
+	    padding-left: 0px;
+	    position: relative;
+    }
+      
+    #submenu2 {
+		padding-top: 15px;
+	    padding-bottom: 15px;
+	    float: right;
+	    padding-left: 0px;
+	    //width: 140px;
+	    padding-right: 0px;
+    }
+    
+    
+    .last-item-dropdown> .col-lg-8{
+        padding-right: 15px;
+    }
+    
+    .content-sub{
+        padding-bottom: 10px;
+    }
+    
+    .content-sub-aduanas{
+        padding: 11px;
+    }
+    
+    #product-menu{
+        right: -65px;
+    }
+    
+    /*padding menu*/
+     
+         /*productos*/
+	.col-lg-4.col-sm-6.col-md-5.menu-padding.produc-child {
+	    padding-left: 45px;
+	}
+	
+		/* 	transacciones */
+	.col-lg-4.col-sm-4.col-md-4.transac-left.menu-padding {
+	    padding-left: 60px;
+	}
+	
+		/* 	operaciones */
+	.col-lg-4.col-sm-4.col-md-4.menu-padding {
+	    padding-left: 50px;
+	}
+     
+     /* .padding menu*/
+    
+    .dropdown-menu.tablero-menu{
+        width: 468px;
+
+    } 
+    
+    .dropdown-menu.tablero-menu.first {
+        width: 120px;
+
+    } 
+    
+    .top{
+    
+    }
+    
+    #transacciones-menu{
+    	width: 570px;
+		right: -90px;
+    }
+    #comprobantes-menu{
+    	width: 570px;
+		right: -90px;
+    }
+    
+     
+    #transacciones-sub-menu{
+    	width: 285px;
+		right: -276px;
+		background-color: #B27A13;
+		top: 105px;
+    }
+    
+    .transac-left{
+    	left: 25px;
+    }
+    
+    .transac-sub-left{
+    	left: 85px;
+    }
+    
+	.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+	    background-color: #f1e4e452;
+	    transition: all .7s;
+	}    
+
+    .menu-padding>div>a{
+   		padding-top: 8px;
+   		padding-bottom: 8px;
+    }
+    
+    .btn .caret {
+    	color: #B27A13;
+	}
+	.fecha-tran{
+		padding-left: 30px;
+		margin-top: 8px;
+    	margin-bottom: -8px;
+	}
+	
+	
+	    
+	
+   /* ******************************   Menu responsive style ***********************************  */
+   
+ @media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 991px) { 
+    
+	.dropdown-submenu .col-sm-8 {
+        width: 55.666667%;
+    }
+    
+    .dropdown-submenu .col-sm-4 {
+        width: 44.333333%;
+    }
+    
+    .navbar-inverse .navbar-nav>li>a{
+        font-size: large;
+    }
+	
+	.sub-menu-size {
+        font-size: smaller;
+    }
+    
+    .title-menu-size {
+	    font-size: 13px;
+	    vertical-align: text-top;
+    }
+    
+    .dropdown-submenu .col-lg-4{
+        padding-top: 15px;
+        top: 5px;
+     }
+     
+     .dropdown-menu.tablero-menu{
+        width: 443px;
+    } 
+    
+    
+    #tablero-menu{
+        width: max-content;
+        min-width: 119px;
+    }
+    
+     #product-menu {
+        right: -70px;
+        width: 410px;
+    }
+    
+    #transacciones-menu{
+        width: 370px;
+    }
+    #comprobantes-menu{
+        width: 370px;
+    }
+     
+     #operaciones-menu{
+        width: 345px;
+     }
+     
+     /*padding menu*/
+     
+         /*productos*/
+	.col-lg-4.col-sm-6.col-md-5.menu-padding {
+	    padding-left: 45px;
+	}
+	
+		/* 	transacciones */
+	.col-lg-4.col-sm-4.col-md-4.transac-left.menu-padding {
+	    padding-left: 60px;
+	}
+	
+		/* 	operaciones */
+	.col-lg-4.col-sm-4.col-md-4.menu-padding {
+	    padding-left: 50px;
+	}
+     
+     /* .padding menu*/
+     
+}
+
+ @media only screen 
+and (min-device-width: 992px) 
+and (max-device-width: 1199px) {
+   .dropdown-submenu .col-md-8 {
+        width: 50.666667%;
+    }
+    
+    .dropdown-submenu .col-md-4 {
+        width: 49.333333%
+    }
+    
+    .title-menu-size {
+	    font-size: 17px;
+	    vertical-align: text-top;
+    }
+    
+    .sub-menu-size {
+        font-size: 15px;
+    }
+    
+    #transacciones-menu{
+        width: 430px;
+    }
+    #comprobantes-menu{
+        width: 430px;
+    }
+    
+     #operaciones-menu{
+        width: 431px;
+    }
+    
+    #operaciones-menu >div>div>.col-md-8{
+        width: 56.666667%;
+    }
+    
+    #operaciones-menu >div>div>.col-md-4{
+        width: 36.333333%;
+    }
+    
+    #transacciones-menu >div>div>.col-md-8{
+        width: 52.666667%;
+    }
+    
+    #transacciones-menu >div>div>.col-md-4{
+        width: 47.333333%
+    }
+    #comprobantes-menu >div>div>.col-md-8{
+        width: 52.666667%;
+    }
+    
+    #comprobantes-menu >div>div>.col-md-4{
+        width: 47.333333%
+    }
+    
+    
+}
+
+
+@media ( min-width :1200px) {
+    .dropdown-submenu .col-lg-8 {
+        width: 50.666667%;
+    }
+    
+    .dropdown-submenu .col-lg-4 {
+        width: 49.333333%;
+    }
+    
+     #transacciones-menu >div>div>.col-lg-8{
+        width: 56.666667%;
+    }
+    
+    #transacciones-menu >div>div>.col-lg-4{
+        width: 40.333333%;
+    }
+    
+     #comprobantes-menu >div>div>.col-lg-8{
+        width: 56.666667%;
+    }
+    
+    #comprobantes-menu >div>div>.col-lg-4{
+        width: 40.333333%;
+    }
+    
+     #operaciones-menu >div>div>.col-lg-8{
+        width: 59.666667%;
+    }
+    
+    #operaciones-menu >div>div>.col-lg-4{
+        width: 40.333333%;
+    }
+}
+	
+	
+   

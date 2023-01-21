@@ -1,0 +1,668 @@
+@CHARSET "UTF-8";
+/* clases generales */
+:root {
+    --main-text-color-gray: #444444;
+    --main-text-color-red: #BD1E2D;
+    --main-media-size: 90% 180px;
+    --main-nexa-light: 'NexaLight';
+    --main-nexa-bold: 'NexaBold';
+    --main-size-box: 510px;
+}
+
+@font-face {
+    font-family: 'NexaLight';
+    src: url('../fonts/NexaFreeLightwebfont.woff');
+    src: local('NexaLight'), url('../fonts/NexaFreeLightwebfont.woff') format('woff'),
+    url('../fonts/NexaFreeLightwebfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NexaBold';
+    src: url('../fonts/nexa-bold-webfont.woff') format('woff');
+    src: local('NexaBold'), url('../fonts/nexa-bold-webfont.woff') format('woff'),
+    url('../fonts/nexa-free-bold-webfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: HalterFont;
+    src: url('../fonts/CREDC___.ttf');
+    src: local('HalterFont'), url('../fonts/CREDC___.ttf') format('ttf'),
+    url('../fonts/CREDC___.ttf') format('truetype');
+}
+
+
+/***************************************  NexaLigth ******************************************/
+/* use this class to attach this font to any element i.e. <p class="nexa-light-white">Text with this font applied</p> */
+.nexa-light-white {
+    font-family: 'NexaLight' !important;
+    color: white !important;
+}
+
+/* datos personales - personFisica*/
+.nexa-light-black {
+    font-family: 'NexaLight' !important;
+    color: #495154 !important;
+}
+
+/* para el Bienvenido o similares*/
+.nexa-light-gray {
+    font-family: 'NexaLight' !important;
+    color: var(--main-text-color-gray) !important;
+}
+
+.nexa-light-blue {
+    font-family: 'NexaLight' !important;
+    color: #7F8082 !important;
+}
+
+.nexa-light-green {
+    font-family: 'NexaLight' !important;
+    color: #065d06 !important;
+}
+
+.nexa-light-red {
+    font-family: 'NexaLight' !important;
+    color: #B27A13 !important;
+}
+
+/* PersonJuridica */
+.nexa-light-white-F {
+    font-family: 'NexaLight' !important;
+    color: white !important;
+}
+
+.nexa-light-black-F {
+    font-family: 'NexaLight' !important;
+    color: #495154 !important;
+}
+
+.nexa-light-gray-F {
+    font-family: 'NexaLight' !important;
+    color: var(--main-text-color-gray) !important;
+}
+
+.nexa-light-red-F {
+    font-family: 'NexaLight' !important;
+    color: #BD1E2D !important;
+}
+
+/*************************************** ./ NexaLigth ******************************************/
+
+/***************************************  NexaBold ******************************************/
+.nexa-bold-white {
+    font-family: 'NexaBold' !important;
+    color: white !important;
+}
+
+.nexa-bold-black {
+    font-family: 'NexaBold' !important;
+    color: #495154 !important;
+}
+
+/* para el Bienvenido o similares*/
+.nexa-bold-gray {
+    font-family: 'NexaBold' !important;
+    color: var(--main-text-color-gray) !important;
+}
+
+.nexa-bold-blue {
+    font-family: 'NexaBold' !important;
+    color: #005CB9 !important;
+}
+
+.nexa-bold-red-F {
+    font-family: 'NexaBold' !important;
+    color: #B27A13 !important;
+}
+
+.nexa-bold-red {
+    font-family: 'NexaBold' !important;
+    color: #BD1E2D !important;
+}
+
+/*************************************** ./ NexaBold ******************************************/
+.box {
+    border-radius: 0px;
+    border-top: 0px solid #d2d6de;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+}
+
+/* estilo para los table's de los BOX (cajas)  */
+table.tablero > tbody > tr:nth-child(odd) {
+    background: #fef6e7;
+}
+
+table.tablero > tbody > tr {
+    font-family: 'NexaLight' !important;
+    color: var(--main-text-color-gray) !important;
+    font-size: 12px;
+}
+
+table.tablero > tbody > tr > th {
+    font-family: 'NexaBold' !important;
+    color: var(--main-text-color-gray) !important;
+}
+
+table.tablero > tbody > tr > td, th {
+    padding-left: 20px;
+    padding-right: 0px;
+}
+
+.monto-disponible {
+    padding-left: 0px !important;
+    padding-right: 45px !important;
+}
+
+.moneda {
+    padding: 8px 45px 8px 0px !important;
+}
+
+.th-title-left {
+    text-align: left;
+    width: 50%;
+    padding-top: 12px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px !important;
+}
+
+.th-title-right {
+    text-align: center;
+    width: 50%;
+    padding-top: 12px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.th-title-moneda {
+    text-align: left;
+    width: 50%;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 10px !important;
+}
+
+.th-title-compra {
+    text-align: center;
+    width: 16%;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 1px !important;
+    position: relative;
+}
+
+.th-title-venta {
+    text-align: center;
+    width: 50%;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 1px !important;
+    position: relative;
+    margin-right: 15px;
+}
+
+.table-size {
+    height: 15em;
+    widdth: 210px;
+}
+
+.scrolltabla {
+    overflow-y: auto;
+}
+
+.content-tablero {
+    padding-left: 50px;
+    /* padding-right: 50px; */
+}
+
+.box-header.with-border {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.flecha-size {
+    width: 9px;
+    height: 9px;
+
+}
+
+.logo-position {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 30px;
+    padding-bottom: 0px;
+    margin-top: 16px;
+}
+
+.fondo-imagen-FISICA {
+    background-image: url("../images/fondo-home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nuevaBanca {
+    background-image: url("../images/nuevaBanca.png");
+    background-repeat: no-repeat;
+    background-size: 600px 500px;
+}
+
+#seriviosPopupImage {
+    background-image: url("../images/servicioPopupImg.jpg");
+    background-repeat: no-repeat;
+    background-size: 648px 648px;
+}
+#seriviosPopupImageHome {
+    background-image: url("../images/WEB-POPUP-HOME-100.jpg");
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+
+#seriviosPopupContent,#seriviosPopupImage {
+    width: 648px;
+    height: 648px;
+}
+#seriviosPopupImageHomeContent,#seriviosPopupImageHome  {
+    width: 800px;
+    height: 800px;
+}
+
+
+#nuevaBancaContent, #nuevaBanca {
+    width: 600px;
+    height: 500px;
+}
+
+.height-inherent {
+    height: inherit;
+}
+
+.right-header {
+    text-align: left;
+    padding-left: 0px;
+    padding-top: 16px;
+}
+
+.noPadding {
+    padding: 0px !important;
+}
+
+.noMargin {
+    margin: 0px !important;
+}
+
+table.tablero > tbody > tr {
+    height: 34px;
+}
+
+.background-J {
+    background: #444444;
+}
+
+.background-F {
+    background: white;
+}
+
+.footer {
+    width: 960px;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+
+.box-empty {
+    min-height: 485px;
+}
+
+.box-empty-whithout {
+    min-height: auto;
+}
+
+.box-empty-service-white {
+    min-height: 410px;
+    text-align: center;
+}
+
+.box-empty-title {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    font-size: 3em;
+}
+
+.box-empty-title-product {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    font-size: 3em;
+}
+
+.box-empty-title-transac {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    font-size: 3em;
+    text-align: center;
+}
+
+.box-empty-service {
+    padding-top: 10%;
+    font-size: 3em;
+}
+
+
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+b.caret.disabled {
+    color: gray;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+    background-color: #B27A13;
+
+}
+.item-sub-menu {
+    transition: all 0.3s ease-in-out 3s, visibility 4s linear 1.3s, z-index 0s linear 0.01s;
+    transform: translateY(0%);
+    transition-delay: 0s, 0s, 0.3s;
+}
+
+.box-ms-info {
+    background-color: #005cb9 !important;
+    border-color: #005cb9 !important;
+    width: 27%;
+    position: absolute;
+    right: 14px;
+    z-index: 5;
+    font-size: 15px;
+    display: none;
+}
+
+.box-ms-error {
+    background-color: #801913 !important;
+    border-color: #801913 !important;
+    width: 27%;
+    position: absolute;
+    right: 14px;
+    z-index: 5;
+    font-size: 15px;
+    display: none;
+}
+
+.box-ms-info {
+    width: 27%;
+    position: absolute;
+    right: 14px;
+    z-index: 5;
+    font-size: 15px;
+    display: none;
+}
+
+
+.spinner-img {
+    position: absolute;
+    /*bottom: 50%;*/
+    right: 50%;
+    transform: translate(50%, 50%);
+    z-index: 5;
+    display: none;
+}
+
+.ball-spin-fade-loader {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    z-index: 10 !important;
+}
+
+.loader {
+    background-color: rgba(0, 0, 0, 0.18);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    display: none;
+}
+
+.ball-spin-fade-loader > div {
+    background-color: #005CB9 !important;
+    margin: 2px;
+}
+
+td.td-empty {
+    background: white;
+}
+
+.media-top.text-center {
+    display: none;
+}
+
+.pdr0 {
+    padding-right: 0px;
+}
+
+.pdt0 {
+    padding-top: 0px;
+}
+
+.pdb0 {
+    padding-bottom: 0px;
+}
+
+.pdl0 {
+    padding-left: 0px;
+}
+
+/***************** LOGIN ************/
+
+.fondo-imagen-login {
+    background-image: url("../img/fondo-login-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.login-title-a {
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.login-title-b {
+    padding: 5px 10px 0px 15px;
+}
+
+.login-title-c {
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.login-a-tab {
+    width: 100% !important;
+
+}
+
+.nav-tabs > li > a.list-b.login-a-tab {
+    border-radius: 10px 10px 0 0;
+}
+
+.nav-tabs > li > a.list-c.login-a-tab {
+    border-radius: 15px 4px 0 0;
+}
+
+.div-title-login {
+    position: relative;
+    left: 20%;
+    right: 0px;
+}
+
+.div-title-password-recovery{
+	position: relative;
+	left: 10%;
+	right: 0px;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.square-div {
+    padding-right: 0px;
+}
+
+.div-recordar-usu {
+    margin-top: 5px;
+    padding-left: 10px;
+
+}
+
+.login-pass-btn {
+    width: 120px;
+    height: 63px;
+    border-radius: 5px;
+    font-size: 21px;
+    padding: 4px 6px 0px 6px;
+}
+
+.teclado.col-md-4 {
+    width: 28.333333% !important;
+}
+
+.pass-forgot {
+    text-decoration: underline;
+    text-decoration-color: #9e9e9e;
+
+}
+
+.login-ruc {
+    margin-top: 15px;
+}
+
+.login-user {
+    margin-top: 100px;
+}
+
+.login-user-legal {
+    margin-top: 15px;
+}
+
+.login-pass {
+    margin-top: 25px;
+}
+
+
+.login-tab {
+    height: 447px;
+}
+
+.content-login {
+    width: 396px;
+}
+
+ul.ul-poli li {
+    color: red;
+    margin-bottom: 9px;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.disabled-menu {
+    pointer-events: none;
+}
+
+.cursor-disabled {
+    cursor: no-drop;
+}
+
+a.a-hover.disabled-menu > span.nexa-light-white {
+    color: #b7b3b3 !important;
+}
+
+.exitMenu {
+    position: absolute !important;
+    right: 0;
+    background-color: #B27A13;
+}
+
+.exitMenu > a:hover {
+    height: 57px !important;
+}
+
+
+.exitLabel {
+    position: relative;
+    top: 2px;
+    margin-top: 5px;
+}
+
+
+.keyboard-margin {
+    margin-left: 50px !important;
+}
+
+.login-opacity {
+    opacity: 0.85;
+}
+
+.mdl-footer {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.btn-mdl-sesion-gold {
+    text-decoration: none;
+    background-color: #B27A13;
+}
+
+.mgl-0 {
+    margin-left: 0px !important;
+}
+
+.pd-5 {
+    padding: 5px;
+}
+
+.disclaimer-box {
+    background: #B27A13;
+    border: 0px;
+    color: #fff;
+    margin: 10px 55px 0px;
+}
+
+.bold-text {
+    font-weight: bold !important;
+}
+
+.disclaimer-confirmation-box {
+    background: #B27A13;
+    border: 0px;
+    color: #fff;
+    margin: 0px 15px 0px;
+}
+
+.pdb-25 {
+    padding-bottom: 25px;
+}
+
+.sipap-tranf-receive-container-row {
+    display: flex;
+}
+
+.sipap-tranf-receive-tab-content {
+    min-height: 450px;
+}
+
+.sipap-tranf-receive-see-more {
+	color: var(--main-text-color-gray) !important;
+}
+
+.password-recovery-pd{
+	padding: 10px 0 0 0;
+    color: var(--main-text-color-gray) !important;
+}

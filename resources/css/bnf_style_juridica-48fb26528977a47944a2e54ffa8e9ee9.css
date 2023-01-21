@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+
+.nexa-light-white-J{
+    font-family: 'NexaLight' !important;
+    color: #495154 !important;
+}
+.nexa-light-black-J{
+    font-family: 'NexaLight' !important;
+    color: white !important;
+}
+.nexa-light-gray-J{
+    font-family: 'NexaLight' !important;
+    color: var(--main-text-color-gray) !important;
+}
+
+.nexa-light-red-J{
+    font-family: 'NexaLight' !important;
+    color: #BD1E2D !important;
+}
+
+.nexa-bold-white-J{
+    font-family: 'NexaBold' !important;
+    color: white !important;
+}
+
+.nexa-bold-black-J{
+    font-family: 'NexaBold' !important;
+    color: #495154 !important;
+}
+/* para el Bienvenido o similares*/
+.nexa-bold-gray-J{
+    font-family: 'NexaBold' !important;
+    color: var(--main-text-color-red) !important;
+}
+
+.nexa-bold-red-J{
+    font-family: 'NexaBold' !important;
+    color: var(--main-text-color-red) !important;
+}

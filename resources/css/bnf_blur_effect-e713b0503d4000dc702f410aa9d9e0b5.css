@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+
+
+.is-blurred {
+  filter: blur(2px);
+  -webkit-filter: blur(2px); }
+
+
+
+.is-hidden {
+  display: none; }
+
+#modalHeader{
+	border-bottom-color: #B27A13 !important;
+}
+
+.closeBtn{
+	font-size: 31px;
+}
+
+
+#tableroContent{
+	width: 400px;
+}
+
+.title-tablero{
+	font-size: 33px;
+}

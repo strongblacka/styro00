@@ -1,0 +1,71 @@
+/* .keyboard-button {  height: 2em;  width: 1.8em; margin: 0em; padding:1px; text-align:center; cursor: pointer; overflow: hidden;   } */
+.keyboard-button {  
+	height: 2em;
+    width: 2em;
+    padding: 3px 1px 1px 3px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: rgb(253, 252, 252);
+    margin: 1px;
+    font-size: 20px;
+    border: solid 1px #7f808278;
+    font-family: 'NexaLight' !important;
+}
+.keyboard-widekey {  width: 9em; text-align: center; }
+.keyboard-keyset {font-size: 1em;text-align: center;}
+.keyboard-keyset-login {font-size: 1em;text-align: left;padding-left: 10px;padding-right: 0px;}
+.keyboard-keyset2{width: 230px;}
+.boton-cerrar{width: 40px; background-color: #004185; color:white; border-radius: 20px; display: none !important;}
+
+/* .boton-borrar{width: 11em; background-color: #004185; color:white; position: absolute; transform: translateX(-50%); margin-left: 0px; margin-right: 0px;} */
+
+
+.boton-borrar{
+	height: 2em;
+    border-radius: 5px;
+    font-size: 21px;
+    padding: 4px 6px 0px 6px;
+	
+}
+
+input#password {
+    height: 1.9em;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 6px;
+    border: solid 1px #444451;
+    width: 6em;
+    font-size: 21px;
+    margin-right: 6px;
+    }
+    
+    /* LOGIN */
+    input.password-login {
+    height: 1.9em;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    border: solid 1px #9e9e9e;
+    font-size: 21px;
+    margin-right: 6px;
+    }
+    
+    .keyboard-button-login {  
+	height: 2em;
+    width: 2em;
+    padding: 3px 1px 1px 3px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: rgb(253, 252, 252);
+    margin: 1px;
+    font-size: 15px;
+    border: solid 1px #7f808278;
+    font-family: 'NexaLight' !important;
+}
+
+@media screen and (max-width:991px){
+	.boton-borrar{
+		width: 4em;
+	}
+}

@@ -1,0 +1,307 @@
+@CHARSET "UTF-8";
+
+/* ################ ICONOS DE MENU #################  */
+.icon-style {
+    display: inline-block;
+    width: 80px;
+    height: 33px;
+    vertical-align: middle;
+    margin-right: 0px;
+}
+
+.icon-error {
+    display: inline-block;
+    width: 32px;
+    height: 31px;
+    vertical-align: middle;
+    margin-right: 0px;
+}
+
+span.icon-error-span {
+    padding: 0px 10px 0px 0px;
+    background-color: white;
+}
+
+span.icon-error-span-other {
+    padding: 0px 10px 0px 0px;
+    background-color: white;
+}
+
+.icon-error-big {
+    display: inline-block;
+    width: 140px;
+    height: 159px;
+    vertical-align: middle;
+    margin-right: 0px;
+}
+
+.icon-submenu-count {
+    background: url(../images/laptop_1440x900/iconos_BNFWEB2_cuentas.png) no-repeat center center;
+}
+
+.icon-submenu-card {
+    background: url(../images/laptop_1440x900/iconos_BNFWEB2_tarjetas.png) no-repeat center center;
+}
+
+.icon-submenu-loan {
+    background: url(../images/laptop_1440x900/iconos_BNFWEB2_prestamos.png) no-repeat center center;
+}
+
+.icon-submenu-cda {
+    background: url(../images/laptop_1440x900/iconos_BNFWEB2_cdas.png) no-repeat center center;
+}
+
+.icon-submenu-transfer {
+    background: url(../images/laptop_1440x900/iconos_BNFWEB2_transferencias.png) no-repeat center center;
+}
+
+.icon-submenu-pay {
+    background: url(../images/laptop_1440x900/iconos_BNFWEB2_pagos.png) no-repeat center center;
+}
+
+.icon-submenu-turn {
+    background: url(../images/laptop_1440x900/iconos_BNFWEB2_giros.png) no-repeat center center;
+}
+
+.icon-submenu-solicitude {
+    background: url(../images/laptop_1440x900/iconos_BNFWEB2_solicitudes.png) no-repeat center center;
+}
+
+.icon-submenu-voucher {
+    background: url(../images/laptop_1440x900/iconos_BNFWEB2_comprobantes.png) no-repeat center center;
+}
+
+.icon-lista-A {
+    background: url(../Ionicons/listaA.png) no-repeat center center;
+}
+
+.icon-lista-B {
+    background: url(../Ionicons/listaB.png) no-repeat center center;
+}
+
+/************************************************** ICON FOR BUTTON OPTION ************************************************/
+
+.icon-option-style {
+    background-size: 35px 35px !important;
+}
+
+.icon-option-MOVIMIENTO {
+    background: url(../images/laptop_1440x900/i_mov.png) no-repeat center center;
+}
+
+.icon-option-CUOTAS {
+    background: url(../images/laptop_1440x900/i_datos.png) no-repeat center center;
+}
+
+.icon-option-SALDOS {
+    background: url(../images/laptop_1440x900/i_saldo.png) no-repeat center center;
+}
+
+.icon-option-SOLICITUD {
+    background: url(../images/laptop_1440x900/i_solicitud.png) no-repeat center center;
+}
+
+
+.icon-option-DATOS {
+    background: url(../images/laptop_1440x900/i_mov.png) no-repeat center center;
+}
+
+.icon-option-PAGOS {
+    background: url(../images/laptop_1440x900/i_pagos.png) no-repeat center center;
+}
+
+.icon-option-EXTRACTO {
+    background: url(../images/laptop_1440x900/i_extracto.png) no-repeat center center;
+}
+
+.icon-option-BLOQUEO {
+    background: url(../images/laptop_1440x900/i_lock.png) no-repeat center center;
+}
+
+.icon-option-EMERGENCIA {
+    background: url(../images/laptop_1440x900/i_emer_call.png) no-repeat center center;
+}
+
+.icon-option-REIMPRESION {
+    background: url(../images/laptop_1440x900/i_reimp.png) no-repeat center center;
+}
+
+.icon-option-TRANSFERENCIAS {
+    background: url(../images/laptop_1440x900/i_transfer.png) no-repeat center center;
+}
+
+.icon-option-CHEQUERA {
+    background: url(../images/laptop_1440x900/i_chequera.png) no-repeat center center;
+}
+
+.icon-option-CHEQUES_DEV {
+    background: url(../images/laptop_1440x900/i_cheq_rech.png) no-repeat center center;
+}
+
+.icon-option-SOLICITUD_CHEQ {
+    background: url(../images/laptop_1440x900/i_cheque_plus.png) no-repeat center center;
+}
+
+.icon-option-MAIL {
+    background: url(../images/laptop_1440x900/i_mail.png) no-repeat center center;
+}
+
+.icon-option-DESCARGA {
+    background: url(../images/laptop_1440x900/i_descarga.png) no-repeat center center;
+}
+
+.icon-option-AUTORIZAR {
+    background: url(../images/laptop_1440x900/i_acept2x.png) no-repeat center center;
+}
+
+.icon-option-RECHAZAR {
+    background: url(../images/laptop_1440x900/i_elim2x.png) no-repeat center center;
+}
+
+.icon-option-AUTORIZAR-rojo {
+    background: url(../images/laptop_1440x900/i_acept_r2x.png) no-repeat center center;
+}
+
+.icon-option-RECHAZAR-rojo {
+    background: url(../images/laptop_1440x900/i_elim_r2x.png) no-repeat center center;
+}
+
+.icon-option-DETALLES {
+    background: url(../images/laptop_1440x900/i_datos.png) no-repeat center center;
+}
+
+.icon-option-ATRAS {
+    background: url(../images/laptop_1440x900/logout.png) no-repeat center center;
+}
+
+.icon-option-IMPRIMIR {
+    background: url(../images/laptop_1440x900/i_print.png) no-repeat center center;
+}
+
+.icon-error-gral {
+    background: url(../images/laptop_1440x900/i_error_mini.png) no-repeat center center;
+}
+
+.icon-error-gral-big {
+    background: url(../images/laptop_1440x900/i_error_big.png) no-repeat center center;
+}
+
+.icon-error-gral-big-white {
+    background: url(../images/laptop_1440x900/i_error_big_white.png) no-repeat center center;
+}
+
+.icon-option-EDITAR {
+    background: url(../images/laptop_1440x900/Editar.png) no-repeat center center;
+}
+
+.icon-option-BORRAR {
+    background: url(../images/laptop_1440x900/elim.png) no-repeat center center;
+}
+
+.icon-back {
+    margin-right: 9px;
+    margin-top: 4px;
+}
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 991px) {
+    .icon-style {
+        display: inline-block;
+        width: 48px;
+        height: 33px;
+        vertical-align: middle;
+        margin-right: 0px;
+    }
+
+    @media print {
+        .no-print, .no-print * {
+            display: none !important;
+        }
+    }
+
+    .icon-submenu-count {
+        background: url(../images/phone_750x1334/drawable-mdpi/cuentas.png) no-repeat center center;
+    }
+
+    .icon-submenu-card {
+        background: url(../images/phone_750x1334/drawable-mdpi/tarjetas.png) no-repeat center center;
+    }
+
+    .icon-submenu-loan {
+        background: url(../images/phone_750x1334/drawable-mdpi/prestamos.png) no-repeat center center;
+    }
+
+    .icon-submenu-cda {
+        background: url(../images/phone_750x1334/drawable-mdpi/cdas.png) no-repeat center center;
+    }
+
+    .icon-submenu-transfer {
+        background: url(../images/phone_750x1334/drawable-mdpi/transferencias.png) no-repeat center center;
+    }
+
+    .icon-submenu-pay {
+        background: url(../images/phone_750x1334/drawable-mdpi/pagos.png) no-repeat center center;
+    }
+
+    .icon-submenu-turn {
+        background: url(../images/phone_750x1334/drawable-mdpi/giros.png) no-repeat center center;
+    }
+
+    .icon-submenu-solicitude {
+        background: url(../images/phone_750x1334/drawable-mdpi/solicitudes.png) no-repeat center center;
+    }
+
+    .icon-submenu-voucher {
+        background: url(../images/phone_750x1334/drawable-mdpi/comprobantes.png) no-repeat center center;
+    }
+
+}
+
+
+@media only screen
+and (min-device-width: 992px)
+and (max-device-width: 1199px) {
+    .icon-style {
+        display: inline-block;
+        width: 58px;
+        height: 33px;
+        vertical-align: middle;
+        margin-right: 0px;
+    }
+}
+
+
+@media ( min-width: 1200px) {
+    .icon-style {
+        display: inline-block;
+        width: 62px;
+        height: 33px;
+        vertical-align: middle;
+        margin-right: 0px;
+    }
+}
+
+/************ICONOS PARA ADMINISTRACION******************/
+
+.icon-admin-PASS {
+    background: url(../images/laptop_1440x900/contrasena.png) no-repeat center center;
+}
+
+.icon-admin-CLAVE {
+    background: url(../images/laptop_1440x900/cont_transac.png) no-repeat center center;
+}
+
+.icon-admin-HIST {
+    background: url(../images/laptop_1440x900/cont_hist.png) no-repeat center center;
+}
+
+.icon-admin-CUENTAS {
+    background: url(../images/laptop_1440x900/cuentas_sav.png) no-repeat center center;
+}
+
+.icon-exito {
+    background: url(../images/laptop_1440x900/checkbnf_b.png) no-repeat center center;
+    background-size: 30px 30px;
+    padding-right: 0px !important;
+}

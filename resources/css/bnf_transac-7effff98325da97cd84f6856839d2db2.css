@@ -1,0 +1,125 @@
+@CHARSET "UTF-8";
+
+.transac-type-title {
+	display: block;
+	width: 100%;
+	text-align:center;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 8px;
+	font-weight: bold;
+}
+
+.transac-empty-details {
+	display: block;
+	width: 100%;
+	text-align:center;
+    font-size: 16px;
+    padding-top:50px;
+	font-weight: bold;
+}
+
+.box-body-left {
+	height: 320px;
+}
+
+.transac-details {
+	height:320px;
+}
+
+.transac-details .media {
+	padding-top: 10px;
+}
+
+.transac-center {
+	text-align: center;	
+}
+
+.transac-details .nexa-light-red,
+.transac-details .nexa-light-gray {
+	margin-bottom: 10px;	
+}
+
+
+#divAutorizarRechazar .icon-error-gral {
+	background-size: 20px 20px;
+}
+#divAutorizarRechazar .icon-error-span {
+	background-color: inherit;
+}
+#errorContainer-transac {
+	padding-bottom: 20px;
+}
+
+.transaccion-informer{
+	padding-top: 10px;
+}
+
+.tab-pane.active.box.detail{
+	margin-bottom:0px;
+}
+
+.pin-box-bottom{
+	display: grid;
+/*     position: absolute; */
+    bottom: 0px;
+}
+
+.detail{
+	min-height: var(--main-size-box);
+}
+
+.btn-transac{
+	padding-top: 10px;
+}
+
+.scroll-box{
+	overflow-y: scroll;
+    height: 473px;
+	overflow-x: hidden;
+}
+
+.height-table-content{
+	max-height: 265px;
+}
+
+.panel-title > a:before {
+    float: right !important;
+    font-family: FontAwesome;
+    content: "\f056";
+    padding-right: 5px;
+}
+
+.panel-title > a.collapsed:before {
+    float: right !important;
+    content: "\f055";
+}
+
+.float-left{
+	float:left
+}
+
+.label-gray{
+	padding-right: 13px;
+	padding-top: 12px;
+}
+
+.label-gray-card{
+	padding-right: 10px;
+	padding-top: 8px;
+}
+
+.label-blue-card{
+	padding-right: 10px;
+	padding-top: 5px;
+}
+
+.label-blue{
+	float: left;
+    margin-right: 15px;
+    padding-top: 10px;
+}
+
+.div-fitler{
+	padding-right: 10px;
+}

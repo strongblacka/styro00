@@ -1,0 +1,36 @@
+#indicator{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#indicator .flexbox{
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#indicator .flexbox .flexbox.step{
+	display: block;
+	position: relative;
+	width: 100%;
+}
+#indicator .flexbox .flexbox.step span{
+	display: inline-block;
+	position: absolute;
+	bottom: 50%;
+	right: 50%;
+	transform: translate(50%,50%);
+}
+
+.spinner-img{
+		-webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}

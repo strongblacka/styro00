@@ -1,0 +1,736 @@
+@CHARSET "UTF-8";
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    background: #B27A13;
+}
+
+
+.nav-tabs>li>a{
+	background: #7f8082;
+	
+}
+
+.tab-content{
+	background: white
+	
+}
+
+.nav-tabs>li>a:hover{
+	border:0px !important;
+	
+}
+
+.nav-tabs {
+    border-bottom: 0px !important;
+}
+
+ul.nav.nav-tabs.navbar-right{
+    top: -37px;
+    position: relative;
+	
+}
+ul.nav.nav-tabs.navbar-right-movil{
+    top: -2px;
+    position: relative;
+	
+}
+
+.list-a{
+	height: 42px;
+    padding-top: 5px;
+    width: 122px;
+    padding-right: 0px;
+    font-size: 16px;
+    height: 37px;
+    padding-top: 5px !important;
+    padding-right: 0px !important;
+    margin-right: 0px !important;
+    border-radius:18px 5px 0px 0px !important;
+    border: 0px !important;
+    
+}
+
+.size-lists{
+    width: 55px;
+    height: 31px;	
+    
+}
+
+.list-li-a{
+	height: 36px;
+}
+    
+.list-b{
+    height: 42px;
+    padding-top: 5px;
+    width: 64px;
+    padding-right: 0px;
+    font-size: 16px;
+    height: 37px;
+    padding-top: 5px !important;
+    padding-right: 0px !important;
+    padding-left: 3px !important;
+    border: 0px !important;
+}
+
+.list-c{
+    height: 42px;
+    padding-top: 5px;
+    width: 64px;
+    padding-right: 0px;
+    font-size: 16px;
+    height: 37px;
+    padding-top: 5px !important;
+    padding-right: 0px !important;
+    padding-left: 3px !important;
+    border: 0px !important;
+}
+
+.header-tab-pane{
+	text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.header-tab-pane.informer{
+	text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10%;
+}
+
+.table-image{
+	margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+.table-image.row{
+	margin-right: 0px;
+    margin-left: 0px;
+}
+
+.table-image.row>.box-body.col-md-4 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+div#tab_a>.table-image.row:nth-child(odd){
+	background: #fef6e7;
+}
+
+.table-image.row.tab-cell:nth-child(odd){
+    background: #fef6e7;
+}
+
+.media-image{
+	position: relative;
+    width: 305px;
+    height: 180px;
+    border-radius: 4px;
+}
+
+.media-object{
+    background: url(../images/cards/card_OTHER.png);
+    background-repeat: no-repeat;
+    background-size: 100% 180px;
+}
+
+.media-objectCDA{
+    background: url(../images/cards/cardCDA.png);
+    background-repeat: no-repeat;
+    background-size: 100% 180px;
+} 
+
+/* card for cards  */
+.media-objectF1{
+    background: url(../images/cards/card_F1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 180px;
+}
+
+.media-objectOT{
+    background: url(../images/cards/card_OT.png);
+    background-repeat: no-repeat;
+    background-size: 100% 180px;
+}
+
+/* card for account */
+.media-objectRed{
+    background: url(../images/cards/cardDebit.png);
+    background-repeat: no-repeat;
+    background-size: 100% 180px;
+}
+
+.media-objectPT{
+    background: url(../images/cards/card_PT.png);
+    background-repeat: no-repeat;
+    background-size: 100% 180px;
+}
+
+.media-object-movements{
+    background: url(../images/cards/card_OTHER.png);
+    background-repeat: no-repeat;
+    background-size: var(--main-media-size);
+    background-position: center;
+}
+
+.media-objectF1-movements{
+    background: url(../images/cards/card_F1.png);
+    background-repeat: no-repeat;
+    background-size: var(--main-media-size);
+    background-position: center;
+}
+
+.media-objectOT-movements{
+    background: url(../images/cards/card_OT.png);
+    background-repeat: no-repeat;
+    background-size: var(--main-media-size);
+        background-position: center;
+}
+
+.media-objectRed-movements{
+	background: url(../images/cards/cardDebit.png);
+    background-repeat: no-repeat;
+    background-size: var(--main-media-size);
+    background-position: center;
+}
+
+
+.media-rigth{
+	border-right-style: solid;
+    border-right-color: #7f808242;
+    border-right-width: 2px;
+	
+}
+
+.box-body.col-md-8{
+	padding-left: 30px;
+}
+
+.line{
+	border-top: 1px solid #B27A13;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.line-gray{
+    border-top: 1px solid red;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.label-movements{
+	font-weight: 100;
+    font-size: 17px;
+    margin-bottom: 0px;
+    top: 5px;
+}
+
+a.dropdown-toggle.nexa-light-blue>.caret{
+	transform: rotate(180deg);
+    transition: transform 0.01s linear;
+}
+
+a.dropdown-toggle.nexa-light-blue.collapsed>.caret{
+	transform: rotate(0deg);
+    transition: transform 0.01s linear;
+}
+/* Cabecera de filtro de fecha  */
+
+.label-date{
+	top:10px;
+    padding-right: 0px;
+}
+
+
+input.date-input{
+	border-radius: 5px!important;
+    height: 30px;
+    top: 3px;
+}
+
+.btn-refresh{
+	height: 30px;
+    margin-left: 10px;
+    top: 3px;
+    width: 30px;
+    background-color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 3px;
+    padding-bottom: 0px;
+    
+}
+
+span.glyphicon.glyphicon-repeat{
+	color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transform: rotate(85deg);
+}
+
+.btn-default:hover, .btn-default:active, .btn-default.hover{
+    background-color: #c35c60;
+}
+ .btn-default:active:focus, .btn-default:focus{
+    background-color: white;
+ }
+ 
+.select-container{
+    border-radius: 5px !important;
+    height: 30px !important;
+    font-family: 'NexaLight' !important;
+    color: #495154 !important;
+ }
+  
+ span.select2.select2-container.select2-container--default{
+    top:3px;
+ }
+ 
+ #datepicker2{
+    padding-right: 8px;
+ }
+ 
+ #datepicker1{
+    padding-right: 8px;
+ }
+ 
+ 
+ .datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-left.datepicker-orient-bottom {
+    width: auto;
+    background-color: white;
+    right: auto;
+    font-family: 'NexaLight' !important;
+    color: #495154 !important;
+}
+  .datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-right.datepicker-orient-bottom {
+    width: auto;
+    background-color: white;
+    right: auto;
+    font-family: 'NexaLight' !important;
+    color: #495154 !important;
+} 
+
+ .datepicker table tr td.active.active, .datepicker table tr td.active.highlighted.active,
+	.datepicker table tr td.active.highlighted:active, .datepicker table tr td.active:active
+{
+    background-color: #B27A13;
+}
+.datepicker table tr td.day:hover, .datepicker table tr td.focused
+{
+    background: #f2e5e5;	
+}
+
+ .datepicker table tr td.active.active:focus, .datepicker table tr td.active.active:hover, 
+  .datepicker table tr td.active:active:hover
+{
+    background-color: #B27A13;
+}
+
+.datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-left.datepicker-orient-top
+{
+	width: auto;
+    background-color: white;
+    right: auto;
+    font-family: 'NexaLight' !important;
+    color: #495154 !important;
+	
+}
+
+.datepicker table tr td.disabled, .datepicker table tr td.disabled:hover{
+    
+   color: #bcb8b8;
+}
+
+.datepicker table tr td, .datepicker table tr th{
+    font-weight: bold;
+    
+}
+
+/*./ Fin de datepicker*/
+ 
+/******************* CARDS DATA ********************/
+.card-data{
+	position: absolute;
+	color: white;
+    font-family: 'HalterFont' !important;
+    font-weight: 100;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #4040408f;
+}
+.card-number{
+    bottom: 44px;
+    margin-left: 45px;
+    font-size: 14px;
+}
+
+.card-date{
+    bottom: 25px;
+    margin-left: 55px;
+    font-size: 13px;
+}
+
+.card-name{
+    bottom: 4px;
+    margin-left: 45px;
+    font-size: 13px;
+}
+/*informer*/
+
+.card-number-inf{
+    bottom: 44px;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.card-date-inf{
+    bottom: 25px;
+    margin-left: 55px;
+    font-size: 13px;
+}
+
+.card-name-inf{
+    bottom: 4px;
+    margin-left: 30px;
+    font-size: 13px;
+}
+
+.clearfix>dl>dt{
+	font-weight: normal !important;
+	margin-bottom: 10px;
+}
+.clearfix>dl{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-left: 25px;
+	
+	
+}
+
+.clearfix>dl>dd{
+	text-align: right;
+}
+
+.media-rigth>.clearfix{
+    padding-right: 30px;
+	
+}
+
+a.btn.btn-secondary{
+    font-size: 18px;
+    background: white;
+    color: #7f8082;
+    width: 33%;
+    margin-right: 0px;
+    font-size: 35px;
+    background: transparent;
+    padding-right: 0px;
+    padding-left: 0px;
+    
+}
+
+a.btn.btn-secondary:hover{
+    box-shadow: inset 0 1px 3px #7f80821c;
+    background: #7f80821c;
+}
+
+a.btn.btn-secondary:active{
+    box-shadow: inset 0 1px 3px #7f80821c;
+    background: #7f80821c;
+}
+
+a.btn.btn-secondary:focus{
+	
+	outline: 0px;
+}
+
+button.btn.btn-secondary{
+    font-size: 18px;
+    background: white;
+    color: #7f8082;
+    width: auto;
+    margin-right: 0px;
+    font-size: 35px;
+    background: transparent;
+}
+
+button.btn.btn-secondary:hover{
+    background: transparent;
+}
+
+button.btn.btn-secondary:active{
+    box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0);
+    background: transparent;
+}
+
+button.btn.btn-secondary:focus{
+    
+    outline: 0px;
+}
+
+.tool-text{
+	font-size: 13px;
+}
+
+a.btn.btn-secondary>span{
+    font-size: 35px;
+}
+
+button.btn.btn-secondary>span{
+    font-size: 35px;
+}
+
+.btn-group{
+	width: 100%;
+}
+
+.truncate{
+	width: 196px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.truncate-mov{
+	width: 254px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.pretty input:checked ~ .state.p-danger .add-box::after {
+	background: #B27A13 !important;
+}
+
+.pretty.p-default{
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.add-box{
+	margin-left: 26px !important;
+}
+
+.add-box-footer{
+	border-top-style: solid;
+    border-top-color: #cacdd28a;
+}
+
+.add-box-label-f{
+    font-weight: 100;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+/*TAB_B  */
+
+.table-striped tbody tr:nth-of-type(2n+2) {
+    background-color: #fef6e7;
+}
+
+.table .thead-dark th{
+    background-color: #B27A13;
+    font-family: 'NexaLight' !important;
+    color: white !important;
+    border-color: #B27A13;
+     font-weight: normal !important;
+   
+}
+
+.table-striped tbody tr td{
+    font-family: 'NexaLight' !important;
+    /*color: var(--main-text-color-gray) !important;*/
+    font-weight: normal !important;
+}
+
+.table-striped tbody tr th{
+    font-family: 'NexaLight' !important;
+    color: var(--main-text-color-gray) !important;
+    font-weight: normal !important;
+}
+
+.amount{
+	width: 15%;
+}
+
+
+
+th.text-right.col-movements{
+    padding-right: 30px;
+}
+
+td.text-right.col-movements{
+    padding-right: 30px;
+}
+
+
+td.count {
+    padding-left: 20px !important;
+}
+
+th.count {
+    padding-left: 20px !important;
+}
+
+
+
+button.btn.btn-primary.dropdown-toggle.nexa-light-gray{
+	background-color: transparent;
+    width: 100%;
+    padding: 0px;
+    height: 20px;
+    font-size: 31px;
+    font-weight: bold;
+    text-align: center;
+    border: 0px;
+    line-height: 0;
+    outline-color: transparent;
+}
+
+table.table-striped tbody.tab>tr>td:nth-last-child(1) {
+    padding: 0px;
+    padding-bottom: 0px;
+}
+
+.option-tool{
+	border-radius: 0px;
+    border-color: #B27A13;
+    background-color: white;
+    margin-top: 17px;
+    left: -315px;
+    width: 407px;
+}
+
+.option-tool-account{
+	border-radius: 0px;
+    border-color: #B27A13;
+    background-color: white;
+    margin-top: 17px;
+    left: -163px;
+    width: 248px;
+}
+
+a.account-saved{
+	margin-left: 25px !important;
+}
+
+/*  Card Movements*/
+
+.media-top{
+	padding-left: 10px;
+    padding-right: 10px;
+}
+
+.col-movements{
+	width: 21%;
+}
+
+.col-movements-movem{
+	width: 40%;
+}
+
+.media-image-movements{
+	position: relative;
+    width: 100%;
+    height: 180px;
+    border-radius: 4px;
+}
+
+.media-image-loans{
+	position: relative;
+    width: 305px;
+    height: 180px;
+    border-radius: 4px;
+    margin:auto
+}
+
+.media-image-cda{
+	position: relative;
+    width: 305px;
+    margin: auto;
+    height: 180px;
+    border-radius: 4px;
+}
+
+.media-bottom{
+	padding-left: 10px;
+    padding-right: 10px;
+}
+
+.media-middle{
+	padding-left: 8px;
+	padding-right: 30px
+}
+    
+.btn-loan-refresh{
+	margin-left: 30px;
+}
+
+.btn-back{
+    padding-left: 7px !important;
+}
+/******************RESPONSIVE *********************/
+@media (min-width: 768px){
+    .navbar-right {
+        margin-right: 0px;
+    }
+    
+    .dl-horizontal dt{
+        text-align: left;  
+        text-overflow: unset;
+        width: 200px;
+    }
+    
+    .dl-horizontal dd {
+        margin-left: 130px;
+    }
+    
+    .cda-account{
+		width: 100px !important;
+    }
+
+}
+
+@media ( min-width :1200px) {
+
+    .flotante {
+        position: absolute;
+        width: 25%;
+        left: 38%;
+        background: #ffffff;
+        border-right: 1px solid #B27A13;
+        border-bottom: 1px solid #B27A13;
+        border-left: 1px solid #B27A13;
+        top: 268px;
+        border-top: 1px solid #ffffff;    
+        z-index: 1;
+        text-align: left;
+        padding-left: 0px;
+    }
+    
+     .flotante-transac {
+        position: absolute;
+        width: 25%;
+        left: 38%;
+        background: #ffffff;
+        border-right: 1px solid #B27A13;
+        border-bottom: 1px solid #B27A13;
+        border-left: 1px solid #B27A13;
+        top: 307px;
+        border-top: 1px solid #ffffff;    
+        z-index: 1;
+        text-align: left;
+        padding-left: 0px;
+    }
+}
+
+@media(min-width: 1441px){
+	.media-image-movements {
+	    position: relative;
+	    width: 80%;
+	    height: 180px;
+	    border-radius: 4px;
+	    margin-left: 8%;
+	}
+}
